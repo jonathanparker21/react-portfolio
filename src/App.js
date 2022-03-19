@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Hero from './components/AboutMe';
+// import Hero from './components/AboutMe';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
@@ -14,7 +14,7 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<AboutMe />} />  
-        <Route path='/hero' element={<Hero />} />  
+        {/* <Route path='/hero' element={<Hero />} />   */}
         <Route path='/portfolio' element={<Portfolio />} />  
         <Route path='/contact' element={<Contact />} />  
         <Route path='/resume' element={<Resume />} />  

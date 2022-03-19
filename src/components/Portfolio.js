@@ -34,7 +34,7 @@ const products = [
     // More products...
   ]
   
-  export default function Example() {
+  export default function Portfolio() {
     return (
       <div className="bg-white">
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -65,7 +65,7 @@ const products = [
                 </div>
                 <div className="mt-6">
                   <a
-                    target="_blank"
+                    // target="_blank"
                     href={product.href}
                     className="relative flex bg-gray-100 border border-transparent rounded-md py-2 px-8 items-center justify-center text-sm font-medium text-gray-900 hover:bg-gray-200"
                   >
@@ -74,7 +74,7 @@ const products = [
                 </div>
                 <div className="mt-6">
                   <a
-                    target="_blank"
+                    // target="_blank"
                     href={product.hrefG}
                     className="relative flex bg-gray-100 border border-transparent rounded-md py-2 px-8 items-center justify-center text-sm font-medium text-gray-900 hover:bg-gray-200"
                   >
