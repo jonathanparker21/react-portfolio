@@ -16,7 +16,7 @@ Our task this week was to build a professional portfolio using ReactJS and takin
 
 ## Link to Deployed App
 
-
+https://jonathanparker21.github.io/react-portfolio/#/
 
 ## Technologies Used  
 
